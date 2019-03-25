@@ -1,12 +1,12 @@
 title:             Aman's Blog
 email:             aman.iitk072@gmail.com
-description:       Lot's of blas
+description:       >
+A collection of the articles I wrote about several of my Life           Experiences, Creations, Travel Guides, and Projects.
 author:            Aman Abhishek Tiwari
 baseurl:           ""
 url:               "http://amanabt.github.io"
 
 # Social Profiles
-twitter_username:  SBootstrap
 github_username:   amanabt
 facebook_username: aman.iitk072
 
