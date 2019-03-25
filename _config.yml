@@ -1,14 +1,14 @@
-title:             Clean Blog
-email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
-author:            Start Bootstrap
+title:             Aman's Blog
+email:             aman.iitk072@gmail.com
+description:       Lot's of blas
+author:            Aman Abhishek Tiwari
 baseurl:           ""
 url:               "http://amanabt.github.io"
 
 # Social Profiles
 twitter_username:  SBootstrap
-github_username:   BlackrockDigital
-facebook_username: StartBootstrap
+github_username:   amanabt
+facebook_username: aman.iitk072
 
 # Build settings
 markdown:          kramdown
