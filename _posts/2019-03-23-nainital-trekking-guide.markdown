@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Nainital Trekking Guide"
 subtitle: "A detailed guide to plan one to two days trekking and sight-seeing in Nainital, U.K., India"
 date:   2019-03-23 20:00:00 +0530
@@ -58,3 +59,28 @@ This article is a detailed account of a trip I took to Nainital which included a
 * You should also take some medicines with you for the trip. With the help of the pharmacists at the Apollo Pharmacy (IITK) and suggestions from the internet, I took the following medicines with me - Wikoryl (relief from cold and fever symptoms), Metrogyl, Digene (anti-acid), Promethazine Theoclate Tablets (motion sickness), Azithromycin tablets (anti-biotic), ORS, moov, Framycetin skin cream, and adhesive bandages. Along with these you should also take Vaseline petroleum jelly, sunscreen, soap, and some body lotion.
 * For food I relied on peanut butter sandwiches. Peanut butter is a rich source of energy, protein and fat. For me, two sandwiches in the morning before the hike was all I needed. After which you can have your lunch of peanut butter sandwich before descending. You can buy both peanut butter and bread at the Campus-e shop and take it along with you. I found that 400g of peanut butter and two packets of bread (with around 15 to 20 slices in each) was sufficient for a two day trip. Along with this you can take lemon and honey, or glucose with you to keep you energetic throughout the hike. If you are following these suggestions, then also bring along a spoon and a knife with you.
 * I was getting an Airtel signal strong enough for calling almost everywhere except while hiking on the northern slopes of the Nanda devi Range. Still, I wasn’t able to get a good internet speed on a 3G network anywhere in Nainital. Although, I am told by the locals that Jeo 4G works best in Nainital.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://amanabt.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
