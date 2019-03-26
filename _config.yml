@@ -4,6 +4,7 @@ description:       A collection of the articles I wrote about several of my Life
 author:            Aman Abhishek Tiwari
 baseurl:           ""
 url:               "http://amanabt.github.io"
+logo:              "/img/logo.png"
 
 # Social Profiles
 
