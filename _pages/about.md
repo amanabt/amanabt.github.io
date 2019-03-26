@@ -1,23 +1,45 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Aman Abhishek Tiwari</strong>
+description: Senior Undergrad | IIT Kanpur | Physics | English Literature
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Hall 5, IIT Kanpur</p>
+    <p>Kanpur, India 208016</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<p>
+ I am a student undergraduate doing majors in Physics and minors in        
+ English Literature from IIT Kanpur. I have several hobbies,
+ like, singing, swimming, and playing Bansuri(not to be confused with Venu,
+ Indian Classical) and piano(Western Classical compositions). I also
+ enjoy going on long-distance cycling trips, reading novels, and writing poems.
+</p>
+ 
+<p>
+  I also like to challenge myself. In the past I have taken challenges
+  like reading 50 books in a year, learning a language to a
+  certain extent, etc., which I have managed to finish.
+</p>
+ 
+<p>
+  I am also learning a few languages these days. I am focusing mainly on
+  French as of now, but apart from that I am also trying to learn
+  Bangla and Telugu.
+ </p>
+ 
+ <p>
+  This year also I have taken a challenge to read 50 books, but I am
+  hoping to push it to 60 or more. Apart from this I am also trying to
+  get  disciplined, by doing a set of activities daily. They include practicing
+  piano, practicing French, running and workouts, and studying.
+  I am hoping to achieve a good streak in doing these activities.
+ </p>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
