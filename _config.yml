@@ -22,6 +22,7 @@ scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
+facebook_username: aman.iitk072
 
 contact_note: >
   For queries mail me at aman.iitk072@gmail.com / amanabt@iitk.ac.in
@@ -45,7 +46,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: amanabt # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
