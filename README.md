@@ -1,4 +1,4 @@
-# al-folio
+# Homepage
 
 [![Build Status](https://travis-ci.org/amanabt/amanabt.github.io.svg?branch=source)](https://travis-ci.org/amanabt/amanabt.github.io)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
