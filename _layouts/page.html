@@ -12,6 +12,10 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.books %}
+    {% include books.html %}
+  {% endif %}
+
   {% if page.news %}
     {% include news.html %}
   {% endif %}

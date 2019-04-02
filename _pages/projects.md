@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: A growing collection of my projects.
+social: true
 ---
 
 {% for project in site.projects %}
