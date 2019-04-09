@@ -1,6 +1,10 @@
+dist: xenial
 language: ruby
 rvm:
 - 2.4.1
+  apt:
+    update: true
+
 script: "./bin/cibuild"
 
 env:
