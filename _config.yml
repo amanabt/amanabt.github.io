@@ -118,3 +118,11 @@ scholar:
 jquery_version: "1.12.4"
 katex_version: "0.9.0"
 anchorjs_version: "3.2.2"
+
+#--------------------------------------------
+#Algolia Search settings
+#--------------------------------------------
+algolia:
+  application_id: ISZ9ML05IY
+  index_name:     Jekyll Search
+  search_only_api_key: f5397e8e9254d0faab20461fb66da18d
