@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Aman Abhishek Tiwari</title>
+  <title>Aman Abhishek Tiwari | Search</title>
   <meta name="description" content="">
 
   <link rel="shortcut icon" href="https://amanabt.github.io/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="https://amanabt.github.io/assets/css/main.css">
-  <link rel="canonical" href="https://amanabt.github.io/blog/">
+  <link rel="canonical" href="https://amanabt.github.io/search/">
 </head>
 
 
@@ -93,32 +93,155 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1></h1>
-  <h2></h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Search</h1>
+    <h5 class="post-description">Search through my website</h5>
+  </header>
+
+  <article class="post-content Search clearfix">
+    <div class="home">
+
+  <div id="search-searchbar"></div>
+
+  <div class="post-list" id="search-hits">
+    
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css" />
+
+<script>
+const search = instantsearch({
+  appId: 'ISZ9ML05IY',
+  apiKey: 'f5397e8e9254d0faab20461fb66da18d',
+  indexName: 'Jekyll Search'
+});
+
+const hitTemplate = function(hit) {
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+
+  let url = `${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+
+
+
 </div>
 
 
-<ul class="post-list">
+  </article>
+
   
-</ul>
 
+  
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
+  
+    <div class="social">
+  <span class="contacticon center">
+    <a href="mailto:%61%6D%61%6E.%69%69%74%6B%30%37%32@%67%6D%61%69%6C.%63%6F%6D"><i class="fas fa-envelope"></i></a>
     
-      <span class="pagination-item disabled">Newer</span>
     
+    <a href="https://github.com/amanabt" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/aman2official" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    
+    
+    
+    
+    <a href="https://www.facebook.com/aman.iitk072" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.goodreads.com/user/show/81434158-aman" target="_blank" title="Goodreads"><i class="fab fa-goodreads"></i></a>
+  </span>
+
+  <div class="col three caption">
+    For queries mail me at aman.iitk072@gmail.com / amanabt@iitk.ac.in
+
   </div>
-  <div class="right">
-    
-      <span class="pagination-item disabled">Older</span>
-    
-  </div>
-  <div class="pagination-meta">Page  of </div>
 </div>
 
+  
 
+</div>
 
       </div>
     </div>
