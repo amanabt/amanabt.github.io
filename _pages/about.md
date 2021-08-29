@@ -2,44 +2,63 @@
 layout: about
 permalink: /
 title: <strong>Aman Abhishek Tiwari</strong>
-description: Senior Undergrad | IIT Kanpur | Physics | English Literature
+description: Research and Development, Quazar Technologies, Pvt Ltd | Undergraduate, IIT Kanpur
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Hall 5, IIT Kanpur</p>
-    <p>Kanpur, India 208016</p>
+    <p>South Delhi</p>
+    <p>New Delhi, India </p>
 
 news: true
 social: true
 ---
 
 <p>
- I am a student undergraduate doing majors in Physics and minors in        
- English Literature from IIT Kanpur. I have several hobbies,
- like, singing, swimming, and playing Bansuri(not to be confused with Venu,
- Indian Classical) and piano(Western Classical compositions). I also
- enjoy going on long-distance cycling trips, reading novels, and writing poems.
+Hello there! Glad to see you here!
 </p>
- 
+
 <p>
-  I also like to challenge myself. In the past I have taken challenges
-  like reading 50 books in a year, learning a language to a
-  certain extent, etc., which I have managed to finish.
+I am a professional working in the field of high precision scientific instrumentation
+used for both characterisation and synthesis primarily in the field of device fabrication
+and characterisation with a team of enthusiastic scientists and professionals led by
+Prof. Deshdeep Sahdev (Board Member Department of Science and Technology, Retd. IIT Kanpur).
 </p>
- 
+
 <p>
-  I am also learning a few languages these days. I am focusing mainly on
-  French as of now, but apart from that I am also trying to learn
-  Bangla and Telugu.
- </p>
- 
- <p>
-  This year also I have taken a challenge to read 50 books, but I am
-  hoping to push it to 60 or more. Apart from this I am also trying to
-  get  disciplined, by doing a set of activities daily. They include practicing
-  piano, practicing French, running and workouts, and studying.
-  I am hoping to achieve a good streak in doing these activities.
- </p>
+I have more than six years of experience in the field of testing and designing of
+electronics and PCBs for high speed data acquisition systems and high precision instrumentation,
+coding for embedded systems for both AVR and ARM based MCUs, GUI design, CAD modeling, 
+writing GPU accelerated computational codes, development of test benches and protocols for
+production and testing organisation, optics, and all stages of product development and manufacturing
+life cycle.
+</p>
+
+<p>
+In recent past I, along with my colleague Dr. Krishnendu Chatterjee, have led the development
+of novel methods for synthesis of 2 dimensional Transition Metal Di-Chalcogenides (TMDCs),
+in particular Molybdenum Disulphide through CVD synthesis, and Graphene, a hot topic among
+researchers for development of flexible electronics among several other applications.
+</p>
+
+<p>
+It is my passion to push the scientific research forward in India through a wholistic approach
+which includes instrumentation, experimentation, computation, and theory and make science
+more approachable to the general population. Of course, as I move ahead in life, passion
+will be more well defined, but the general direction will remain the same.
+</p>
+
+<p>
+I must say that I enjoy and love doing my work, but, to live my life to the fullest I believe that
+one needs to focus on his hobbies as well. Keeping that in mind, I make sure that I have hobbies
+through which I can keep my life fun, engaging, and learning. I have several hobbies which I
+like to follow from time to time, like, I enjoy playing piano, long distance cycling, visiting
+historical monuments, trekking, reading novels, blogging (check it out here!), and swimming.
+</p>
+
+<p>
+I hope you enjoyed reading about me. Drop me a mail or reach out to me on any of the social
+media sites listed below to get in touch!
+</p>
 
