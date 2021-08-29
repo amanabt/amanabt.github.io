@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Aman Abhishek Tiwari</strong>
-description: Research and Development, Quazar Technologies, Pvt Ltd | Undergraduate, IIT Kanpur
+description: Research and Development, Quazar Technologies Pvt Ltd | Undergraduate(Y14), IIT Kanpur
 
 profile:
   align: right
